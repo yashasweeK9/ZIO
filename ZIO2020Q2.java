@@ -1,6 +1,9 @@
 public class ZIO2020Q2 {
     public static void main(String[] args) {
-        System.out.println(Solfunc2020Q2(8));
+        int TC[] = {9,58,2000}; // Test Case Array
+        for(int cases=0;cases<TC.length;cases++) {
+            System.out.println(TC[cases]+": "+Solfunc2020Q2(TC[cases])); // Printing the Value of Respective Test Cases
+        }
     }
 
     private static final int Solfunc2020Q2(int S) {
